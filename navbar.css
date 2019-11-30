@@ -1,0 +1,39 @@
+nav {
+	/* border: 1px solid black;  */
+	width: 100%; 
+	margin: 50px auto;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	padding: 20px;
+	font-weight: 800;
+}
+
+nav > div {
+	flex: 1 1 100%; 
+}
+
+@media all and (max-width: 600px) {
+	nav {
+		flex-wrap: wrap; 
+	}
+}
+
+.search-input {
+	background: none; 
+	border: 1px gray solid; 
+	/* border-bottom: 1px gray solid;  */
+	text-align: center; 
+	font-size: 1em; 
+	font-weight: 700;
+	color: gray;
+}
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; }
+
+main {
+	width: 80%; 
+	border: 2px solid black; 
+}
+
