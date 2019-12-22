@@ -1,0 +1,46 @@
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+	grid-auto-rows: 200px;
+    margin: 20px 10px;
+    grid-gap: 10px;
+    justify-self: center;
+}
+
+.grid a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.grid a:hover {
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+.grid > div {
+    background-size: cover;	
+    text-align: center;
+}
+
+
+
+#corntortillas {
+	background-image: url(images/tortillaspro.jpg);
+}
+#applepie {
+    background-image: url(images/applepieunsplash.jpg);
+    background-position: bottom;
+}
+
+#brownies {
+    background-image: url(images/browniesunsplash.jpg);
+    background-position: bottom;
+}
+
+#ranchdressing {
+	background-image: url(images/ranch.jpg);
+}
+#cookies {
+	background-image: url(images/cookies.jpg);
+}

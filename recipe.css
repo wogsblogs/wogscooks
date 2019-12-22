@@ -1,0 +1,8 @@
+.recipe-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+	grid-auto-rows: 200px;
+    margin: 20px 10px;
+    grid-gap: 10px;
+    justify-self: center;
+}

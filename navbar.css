@@ -1,12 +1,27 @@
 nav {
-	/* border: 1px solid black;  */
 	width: 100%; 
-	margin: 50px auto;
+	margin: 30px auto;
 	display: flex;
 	text-align: center;
 	align-items: center;
-	padding: 20px;
+	padding: 10px;
+	font-weight: 400;
+	font-family: Helvetica, sans-serif;
+	background-color: #fff8;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-size: .9em;
+}
+
+nav a {
+	color: #606060;
+	text-decoration: none; 
+}
+
+nav a:hover {
+	color: black;
 	font-weight: 800;
+	font-size: 110%;
 }
 
 nav > div {
@@ -16,24 +31,26 @@ nav > div {
 @media all and (max-width: 600px) {
 	nav {
 		flex-wrap: wrap; 
+		font-size: 1.2em;
+		margin: 0px auto;
 	}
 }
+
 
 .search-input {
 	background: none; 
 	border: 1px gray solid; 
 	/* border-bottom: 1px gray solid;  */
 	text-align: center; 
-	font-size: 1em; 
-	font-weight: 700;
+	font-size: .9em; 
+	font-weight: 400;
 	color: gray;
+	text-transform: uppercase;
+	letter-spacing: .1em;
 }
 
 input:focus::-webkit-input-placeholder { color:transparent; }
 input:focus:-moz-placeholder { color:transparent; }
 
-main {
-	width: 80%; 
-	border: 2px solid black; 
-}
+
 

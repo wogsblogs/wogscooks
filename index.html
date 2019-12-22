@@ -1,41 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Wogs Bakes</title>
+	<title>Cooking with Wogs</title>
 	<meta charset="utf-8">
 	<meta name="description" content="Wogs' collection of delicious, healthy recipes.">
 	<meta name="author" content="Wogs Blogs">
 	<meta name="keywords" content="recipes, healthy, food, cooking, Wogs Blogs">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="mycool.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
 	<link rel="stylesheet" href="navbar.css">
+	<link rel="stylesheet" href="grid.css">
 </head>
 
 <body>
 
+	<header id="header-img-container">
+		<div class="header-inner-container">
 
-		<div id="img-container">
-			<div class="inner-container">
-					<nav>
-						<div class="main">Main</div> 
-						<div class="savory">Savory</div>
-						<div class="sweet">Sweet</div>
-						<div class="search"> 
-							<input type="text" name="search" class="search-input" placeholder="Search"></div>
-					</nav>
-					<div id="hero-text">
-						<h1>Wogs Cooks</h1> 
-						<br>
-						<br>
-						<h2>A collection of my favorite recipes</h2>
-					</div>
+		<!-- BEGIN NAVBAR ---------------------- -->
+			<nav>
+				<div class="main"><a href="index.html">Main</a></div> 
+				<div class="savory"><a href="savory.html">Savory</a></div>
+				<div class="sweet"><a href="sweet.html">Sweet</a></div>
+				<div class="search"> 
+					<input type="text" name="search" class="search-input" placeholder="Search"></div>
+			</nav>
+		<!-- END NAVBAR ----------------------- -->
+
+			<div id="hero-text">
+				<img id="herotitlepng" src="images/herotitle.png" alt="Cooking with Wogs">
 			</div>
 		</div>
+	</header>
 
 
 	<main>
-		<p>A collection of my favorite recipes!</p>
+
+		<div class="grid">
+			<div id="corntortillas"><h2><a href="corntortillas.html">Corn Tortillas</a></h2></div>
+			<div id="applepie"><h2><a href="applepie.html">Apple Pie/Crisp</a></h2></div>
+			<div id="brownies"><h2><a href="brownies.html">Brownies</a></h2></div>
+			<div id="ranchdressing"><h2><a href="ranchdressing.html">Ranch Dressing</a></h2></div>
+			<div id="cookies"><h2><a href="cookies.html">Chocolate Chip Cookies</a></h2></div>
+		</div>
+
 	</main>
 
 
